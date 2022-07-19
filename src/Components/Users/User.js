@@ -43,7 +43,7 @@ const User=({   match })=>{
                     Back to Search
                 </Link>
                 Hireable: { ' '} <i className="fas fa-check text-success"/>
-//                 {hireable ? <i className="fas fa-check text-success"/>:<i className="fas fa-times-circle text-danger"/> }
+            {/*                 {hireable ? <i className="fas fa-check text-success"/>:<i className="fas fa-times-circle text-danger"/> } */}
 
                 <div className="card grid-2">
                     <div className="all-center">
