@@ -42,8 +42,9 @@ const User=({   match })=>{
                 <Link to='/' className='btn btn-light'>
                     Back to Search
                 </Link>
-                Hireable: { ' '}
-                {hireable ? <i className="fas fa-check text-success"/>:<i className="fas fa-times-circle text-danger"/> }
+                Hireable: { ' '} <i className="fas fa-check text-success"/>
+//                 {hireable ? <i className="fas fa-check text-success"/>:<i className="fas fa-times-circle text-danger"/> }
+
                 <div className="card grid-2">
                     <div className="all-center">
                         <img src={avatar_url} className="round-img" alt="" style={{width:'150px'}} />
