@@ -28,7 +28,7 @@ const User=({   match })=>{
             blog,
             login,
             html_url,
-            hireable,
+            
             followers,
             following,
             public_repos,
